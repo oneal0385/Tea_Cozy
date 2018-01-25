@@ -52,10 +52,13 @@ header nav {
 
 .content {
   display: flex;
-  width: 1232px;
+  flex-direction: column;
   margin: 0 auto 20px auto;
   padding-top: 116px;
   align-content: center;
+  justify-content: center;
+  border: 1px solid white;
+  width: 1200px;
 }
 
 .hero {
@@ -78,4 +81,31 @@ header nav {
   background-color: black;
   text-align: center;
   justify-content: center;
+}
+
+.teacontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.teaofthemonth {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1000px;
+  border: 1px solid white;
+  align-items: center;
+  justify-content: center;
+}
+
+.teaofthemonth img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  border: 1px solid white;
+}
+
+.tagline {
+  width: 1000px;
+  border: 1px solid white;
 }
