@@ -17,6 +17,7 @@ a {
 nav span {
   display: inline-block;
   padding-right: 10px;
+  padding-left: 10px;
   text-decoration: underline;
 }
 
@@ -54,12 +55,13 @@ header nav {
   display: flex;
   flex-direction: column;
   margin: 0 auto 20px auto;
-  padding-top: 116px;
+  padding-top: 69px;
   align-content: center;
   justify-content: center;
-  border: 1px solid white;
   width: 1200px;
 }
+
+/* Hero Content */
 
 .hero {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
@@ -76,17 +78,17 @@ header nav {
 .image-content {
   display: flex;
   width:1200px;
-  color: seashell;
   background-color: black;
   justify-content: center;
 }
+
+/* Tea of the Month Section */
 
 .teaofthemonth {
   display: inline-flex;
   flex-wrap: wrap;
   flex-direction: row;
   width: 1000px;
-  border: 1px solid white;
   align-items: center;
   justify-content: center;
 }
@@ -95,42 +97,66 @@ header nav {
   height: 200px;
   width: 300px;
   margin: 10px;
-  border: 1px solid white;
 }
 
 .tagline {
   width: 1000px;
-  border: 1px solid white;
 }
+
+.teacontainer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.teacontainer p {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Locations Section */
 
 .locations {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   height: 500px;
   width: 1200px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.loc-img-content {
+.loc-container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
+  width: 980px;
+  height: 300px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+.loc-box {
   display: flex;
   flex-direction: column;
-  width:1200px;
-  color: seashell;
-  background-color: black;
-  text-align: center;
   justify-content: center;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
 }
+
+/* Contact */
 
 .contact {
   height: 200px;
 }
 
+/* Footer */
+
 .footer {
   display: flex;
   text align: left;
   padding-left: 20px;
+  padding-bottom: 20px;
 }
