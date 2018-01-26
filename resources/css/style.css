@@ -75,17 +75,10 @@ header nav {
 
 .image-content {
   display: flex;
-  flex-direction: column;
   width:1200px;
   color: seashell;
   background-color: black;
-  text-align: center;
   justify-content: center;
-}
-
-.teacontainer {
-  display: flex;
-  flex-direction: column;
 }
 
 .teaofthemonth {
@@ -108,4 +101,36 @@ header nav {
 .tagline {
   width: 1000px;
   border: 1px solid white;
+}
+
+.locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loc-img-content {
+  display: flex;
+  flex-direction: column;
+  width:1200px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact {
+  height: 200px;
+}
+
+.footer {
+  display: flex;
+  text align: left;
+  padding-left: 20px;
 }
